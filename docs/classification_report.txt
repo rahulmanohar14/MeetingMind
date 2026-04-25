@@ -1,0 +1,14 @@
+MeetingMind DistilBERT Fine-Tuned Classifier
+Training: ICSI Meeting Recorder Corpus (Shriberg et al. 2004) + curated examples
+============================================================
+               precision    recall  f1-score   support
+
+     DECISION     1.0000    1.0000    1.0000        10
+  ACTION_ITEM     1.0000    1.0000    1.0000        10
+OPEN_QUESTION     1.0000    0.6923    0.8182        13
+     DEFERRAL     1.0000    1.0000    1.0000        12
+   DISCUSSION     0.9111    1.0000    0.9535        41
+
+     accuracy                         0.9535        86
+    macro avg     0.9822    0.9385    0.9543        86
+ weighted avg     0.9576    0.9535    0.9503        86

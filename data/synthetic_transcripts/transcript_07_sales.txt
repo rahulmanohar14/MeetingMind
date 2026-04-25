@@ -1,0 +1,22 @@
+Alice: [DISCUSSION] Thanks everyone for joining today. I think we have a lot to cover regarding the new sales strategy.  
+Bob: [DISCUSSION] Absolutely, Alice. I believe our focus should shift more towards online platforms.  
+Charlie: [OPEN_QUESTION] How do we plan to integrate social media into our outreach?  
+Alice: [DISCUSSION] Great point, Charlie. I think leveraging influencers could be key.  
+Dana: [DECISION] Let’s move forward with a pilot program for Instagram ads next month.  
+Eve: [ACTION_ITEM] I can take the lead on creating a content calendar for those ads.  
+Frank: [DISCUSSION] That sounds good, Eve. However, we should also consider our budget.  
+Alice: [DEFERRAL] Let’s table the budget discussion for next week when we have all the figures.  
+Bob: [DISCUSSION] Fine by me, but I want to ensure we don’t miss any opportunities.  
+Charlie: [ACTION_ITEM] I’ll research successful influencer partnerships and share my findings.  
+Dana: [DECISION] We agree on a budget review next week, then we can finalize the ad strategy.  
+Eve: [DISCUSSION] Should we also discuss email marketing in this context?  
+Frank: [DISCUSSION] Definitely, our existing list has a lot of potentials we haven’t tapped into yet.  
+Alice: [OPEN_QUESTION] How often should we send out emails to our clients?  
+Bob: [DISCUSSION] I think bi-weekly would keep us in their minds without overwhelming them.  
+Dana: [ACTION_ITEM] I can draft a schedule for email campaigns for us to review.  
+Charlie: [DEFERRAL] I’d like to revisit the email strategy once we settle on our social media plan.  
+Eve: [DECISION] Let's reconvene in a week after reviewing the influencer and email strategies.  
+Frank: [DISCUSSION] Sounds like a plan. Can we also assign someone to track the performance metrics?  
+Alice: [ACTION_ITEM] I’ll volunteer to track metrics and report back at our next meeting.  
+Charlie: [DISCUSSION] That will help us adjust strategies in real-time.  
+Bob: [DECISION] All right, let’s finalize these action items and meet again next week.

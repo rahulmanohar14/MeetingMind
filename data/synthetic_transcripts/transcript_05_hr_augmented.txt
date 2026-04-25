@@ -1,0 +1,21 @@
+Alice: [DISCUSSION] I appreciate everyone being here for today’s meeting. Let's dive into our agenda items. 
+Bob: [DISCUSSION] I wanted to bring up the upcoming performance assessments. Are we still set to kick them off next week? 
+Charlie: [DECISION] Yes, we’ve confirmed the schedule and will move ahead as intended. 
+Diana: [OPEN_QUESTION] What criteria are we using this year for the evaluations? 
+Evelyn: [DISCUSSION] I believe we should take into account both measurable and subjective factors for a more comprehensive assessment. 
+Frank: [ACTION_ITEM] I will compile last year’s evaluation criteria and distribute them to the team by week’s end. 
+Alice: [DISCUSSION] That sounds great, Frank. We should also consider feedback from the previous evaluation cycle. 
+Bob: [DEFERRAL] Can we postpone that conversation until next week? I need additional time to analyze the feedback. 
+Charlie: [ACTION_ITEM] I will follow up on the feedback and make sure it’s included in the next meeting agenda. 
+Diana: [DISCUSSION] On the topic of team-building events, does anyone have suggestions? 
+Evelyn: [DECISION] I suggest we set aside some funds for an offsite gathering next month. 
+Frank: [DISCUSSION] That could enhance teamwork across the departments. 
+Alice: [OPEN_QUESTION] Is there a particular budget we should be mindful of for this? 
+Bob: [DISCUSSION] I think we should aim to keep it under $500 per attendee to manage costs effectively. 
+Charlie: [DECISION] Let’s establish a total budget of $5,000 for the event. 
+Diana: [ACTION_ITEM] I will look into potential venues and activities and update everyone at the next meeting. 
+Evelyn: [DEFERRAL] I’ll need to consult with finance regarding the budget before we finalize any plans. 
+Frank: [DISCUSSION] Also, should we think about virtual options for those employees who can’t join in person? 
+Alice: [DECISION] Yes, I believe a hybrid approach would be the most effective. 
+Bob: [ACTION_ITEM] I’ll put together a draft proposal for the hybrid model and share it for input. 
+Diana: [DISCUSSION] I think that's an excellent plan, everyone. Let’s ensure we keep communication open as we progress.

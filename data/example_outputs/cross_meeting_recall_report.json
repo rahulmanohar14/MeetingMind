@@ -1,0 +1,178 @@
+{
+  "total_known_recurring_issues": 10,
+  "correctly_flagged": 9,
+  "missed": 1,
+  "false_positives": 0,
+  "recall": 0.9,
+  "precision": 1.8,
+  "f1": 1.2,
+  "verdict": "PASS",
+  "sequence_results": [
+    {
+      "sequence_name": "Sequence 1",
+      "ground_truth_topics": [
+        "datacorp",
+        "vendor"
+      ],
+      "flagged_count": 1,
+      "flagged_items": [
+        {
+          "node_id": "issue_051ff2e814c9facf4e1938e29567a64a",
+          "text": "I'll follow up with DataCorp legal team by Friday.",
+          "meetings": [
+            "sequence_1_meeting_1",
+            "sequence_1_meeting_2",
+            "sequence_1_meeting_3"
+          ],
+          "meeting_ids": [
+            "sequence_1_meeting_1",
+            "sequence_1_meeting_2",
+            "sequence_1_meeting_3"
+          ],
+          "resolution_status": "unresolved",
+          "appearance_count": 3
+        }
+      ],
+      "correctly_flagged_topics": [
+        "datacorp"
+      ],
+      "missed_topics": [
+        "vendor"
+      ],
+      "correctly_flagged_count": 1,
+      "false_positives_count": 0
+    },
+    {
+      "sequence_name": "Sequence 2",
+      "ground_truth_topics": [
+        "budget approval",
+        "budget"
+      ],
+      "flagged_count": 1,
+      "flagged_items": [
+        {
+          "node_id": "issue_931d4634394659ef7f4d86b4da779f50",
+          "text": "Has anyone escalated the budget approval timeline?",
+          "meetings": [
+            "sequence_2_meeting_1",
+            "sequence_2_meeting_2",
+            "sequence_2_meeting_3"
+          ],
+          "meeting_ids": [
+            "sequence_2_meeting_1",
+            "sequence_2_meeting_2",
+            "sequence_2_meeting_3"
+          ],
+          "resolution_status": "unresolved",
+          "appearance_count": 3
+        }
+      ],
+      "correctly_flagged_topics": [
+        "budget approval",
+        "budget"
+      ],
+      "missed_topics": [],
+      "correctly_flagged_count": 2,
+      "false_positives_count": 0
+    },
+    {
+      "sequence_name": "Sequence 3",
+      "ground_truth_topics": [
+        "launch timeline",
+        "launch"
+      ],
+      "flagged_count": 1,
+      "flagged_items": [
+        {
+          "node_id": "issue_fe166cde69a05918001371205c6986db",
+          "text": "Has the launch timeline been communicated to customers?",
+          "meetings": [
+            "sequence_3_meeting_1",
+            "sequence_3_meeting_2",
+            "sequence_3_meeting_3"
+          ],
+          "meeting_ids": [
+            "sequence_3_meeting_1",
+            "sequence_3_meeting_2",
+            "sequence_3_meeting_3"
+          ],
+          "resolution_status": "unresolved",
+          "appearance_count": 3
+        }
+      ],
+      "correctly_flagged_topics": [
+        "launch timeline",
+        "launch"
+      ],
+      "missed_topics": [],
+      "correctly_flagged_count": 2,
+      "false_positives_count": 0
+    },
+    {
+      "sequence_name": "Sequence 4",
+      "ground_truth_topics": [
+        "compliance review",
+        "compliance"
+      ],
+      "flagged_count": 1,
+      "flagged_items": [
+        {
+          "node_id": "issue_12fa8b7a5a4291d783afc941f025d767",
+          "text": "Who owns the compliance review process?",
+          "meetings": [
+            "sequence_4_meeting_1",
+            "sequence_4_meeting_2",
+            "sequence_4_meeting_3"
+          ],
+          "meeting_ids": [
+            "sequence_4_meeting_1",
+            "sequence_4_meeting_2",
+            "sequence_4_meeting_3"
+          ],
+          "resolution_status": "unresolved",
+          "appearance_count": 3
+        }
+      ],
+      "correctly_flagged_topics": [
+        "compliance review",
+        "compliance"
+      ],
+      "missed_topics": [],
+      "correctly_flagged_count": 2,
+      "false_positives_count": 0
+    },
+    {
+      "sequence_name": "Sequence 5",
+      "ground_truth_topics": [
+        "api performance",
+        "api"
+      ],
+      "flagged_count": 1,
+      "flagged_items": [
+        {
+          "node_id": "issue_9445d277b428178b47522927b2608763",
+          "text": "Has anyone identified the root cause of the API performance problem?",
+          "meetings": [
+            "sequence_5_meeting_1",
+            "sequence_5_meeting_2",
+            "sequence_5_meeting_3"
+          ],
+          "meeting_ids": [
+            "sequence_5_meeting_1",
+            "sequence_5_meeting_2",
+            "sequence_5_meeting_3"
+          ],
+          "resolution_status": "unresolved",
+          "appearance_count": 3
+        }
+      ],
+      "correctly_flagged_topics": [
+        "api performance",
+        "api"
+      ],
+      "missed_topics": [],
+      "correctly_flagged_count": 2,
+      "false_positives_count": 0
+    }
+  ]
+}

@@ -1,0 +1,266 @@
+{
+  "meeting_id": "sample_meeting_001",
+  "summary": "In the executive meeting held on April 22, 2023, participants discussed the upcoming product launch, confirming a beta rollout on April 28 and a public launch in May. Bob shared insights from the Celtics game, while the team addressed engineering needs, legal review timelines, and potential API rate limits. Action items were assigned, including the preparation of a feature flag and rollout checklist by Friday, and the final marketing landing page to be delivered to Alice by Thursday noon. The team agreed to revisit budget discussions after Q2 projections and will finalize the podcast promotion details in the next standup.",
+  "decisions": [
+    {
+      "text": "We’re going with a staged rollout: beta cohort first, then public the following week. That’s final.",
+      "source_line": "Line 11: Alice: We’re going with a staged rollout: beta cohort first, then public the following week. That’s final.",
+      "speaker": "Alice"
+    },
+    {
+      "text": "We’re going with the April 28 launch for the beta, full public in May, agreed upon by everyone on this call.",
+      "source_line": "Line 20: Alice: We’re going with the April 28 launch for the beta, full public in May, agreed upon by everyone on this call.",
+      "speaker": "Alice"
+    },
+    {
+      "text": "That timeline works for design handoff, as long as copy freeze is this Wednesday.",
+      "source_line": "Line 21: Sarah: That timeline works for design handoff, as long as copy freeze is this Wednesday.",
+      "speaker": "Sarah"
+    }
+  ],
+  "action_items": [
+    {
+      "text": "I’ll have the feature flag and rollout checklist ready by this Friday, April 25.",
+      "source_line": "Line 12: Bob: I’ll have the feature flag and rollout checklist ready by this Friday, April 25.",
+      "speaker": "Bob",
+      "owner": "Bob",
+      "verb": "have ready",
+      "deadline": "April 25",
+      "low_confidence": false,
+      "completion_risk": "low"
+    },
+    {
+      "text": "I’ll get the TOS and privacy addendum in front of the exec sponsor by next Tuesday, close of business.",
+      "source_line": "Line 13: Marcus: I’ll get the TOS and privacy addendum in front of the exec sponsor by next Tuesday, close of business.",
+      "speaker": "Marcus",
+      "owner": "Marcus",
+      "verb": "get",
+      "deadline": "next Tuesday, close of business",
+      "low_confidence": false,
+      "completion_risk": "low"
+    },
+    {
+      "text": "I will deliver the final marketing landing page to Alice by Thursday noon for review.",
+      "source_line": "Line 14: Sarah: I will deliver the final marketing landing page to Alice by Thursday noon for review.",
+      "speaker": "Sarah",
+      "owner": "Sarah",
+      "verb": "deliver",
+      "deadline": "Thursday noon",
+      "low_confidence": false,
+      "completion_risk": "low"
+    },
+    {
+      "text": "I’ll need Sarah’s creative assets in before I can sensibly time the staging work.",
+      "source_line": "Line 19: Bob: I’ll need Sarah’s creative assets in before I can sensibly time the staging work.",
+      "speaker": "Bob",
+      "owner": "Sarah",
+      "verb": "provide",
+      "deadline": null,
+      "low_confidence": false,
+      "completion_risk": "high"
+    },
+    {
+      "text": "I’ll coordinate smoke tests with QA once the branch is feature-complete — no blockers from my side right now.",
+      "source_line": "Line 22: Bob: I’ll coordinate smoke tests with QA once the branch is feature-complete — no blockers from my side right now.",
+      "speaker": "Bob",
+      "owner": "Bob",
+      "verb": "coordinate",
+      "deadline": null,
+      "low_confidence": false,
+      "completion_risk": "high"
+    }
+  ],
+  "open_questions": [
+    {
+      "text": "Understood. On pricing, we have two options on the table — are we still split?",
+      "source_line": "Line 8: Alice: Understood. On pricing, we have two options on the table — are we still split?",
+      "speaker": "Alice"
+    },
+    {
+      "text": "Has anyone run the accessibility audit on the new checkout flow? I haven’t seen results.",
+      "source_line": "Line 15: Alice: Has anyone run the accessibility audit on the new checkout flow? I haven’t seen results.",
+      "speaker": "Alice"
+    },
+    {
+      "text": "I thought QA was running that — I’m not sure we have a clear owner yet.",
+      "source_line": "Line 16: Bob: I thought QA was running that — I’m not sure we have a clear owner yet.",
+      "speaker": "Bob"
+    },
+    {
+      "text": "One open thing — are we still doing the podcast promo on day one, or is that a maybe?",
+      "source_line": "Line 23: Alice: One open thing — are we still doing the podcast promo on day one, or is that a maybe?",
+      "speaker": "Alice"
+    }
+  ],
+  "deferrals": [
+    {
+      "text": "On the budget question, let’s circle back after we get Q2 projections — I don’t want to guess today.",
+      "source_line": "Line 17: Alice: On the budget question, let’s circle back after we get Q2 projections — I don’t want to guess today.",
+      "speaker": "Alice"
+    },
+    {
+      "text": "Fair — I can mention budget risks in the same legal note, but the spend itself isn’t decided.",
+      "source_line": "Line 18: Marcus: Fair — I can mention budget risks in the same legal note, but the spend itself isn’t decided.",
+      "speaker": "Marcus"
+    },
+    {
+      "text": "I’m leaning toward yes, but we have not decided creative yet.",
+      "source_line": "Line 24: Sarah: I’m leaning toward yes, but we have not decided creative yet.",
+      "speaker": "Sarah"
+    },
+    {
+      "text": "Cool — let’s park creative for Wednesday’s standup. Thanks, everyone — I’ll send notes after this.",
+      "source_line": "Line 25: Alice: Cool — let’s park creative for Wednesday’s standup. Thanks, everyone — I’ll send notes after this.",
+      "speaker": "Alice"
+    }
+  ],
+  "recurring_issues": [],
+  "accountability": {
+    "I": {
+      "assigned": 4,
+      "completed": 0,
+      "follow_through_ratio": 0.0,
+      "items": [
+        {
+          "meeting_id": "meeting_001",
+          "text": "I’ll have the feature flag and rollout checklist ready by this Friday, April 25.",
+          "verb": "have",
+          "deadline": "April 25",
+          "source_line": "Line 12: Bob: I’ll have the feature flag and rollout checklist ready by this Friday, April 25."
+        },
+        {
+          "meeting_id": "meeting_001",
+          "text": "I’ll get the TOS and privacy addendum in front of the exec sponsor by next Tuesday, close of business.",
+          "verb": "get",
+          "deadline": "next Tuesday, close of business",
+          "source_line": "Line 13: Marcus: I’ll get the TOS and privacy addendum in front of the exec sponsor by next Tuesday, close of business."
+        },
+        {
+          "meeting_id": "meeting_001",
+          "text": "I will deliver the final marketing landing page to Alice by Thursday noon for review.",
+          "verb": "deliver",
+          "deadline": "Thursday noon",
+          "source_line": "Line 14: Sarah: I will deliver the final marketing landing page to Alice by Thursday noon for review."
+        },
+        {
+          "meeting_id": "meeting_001",
+          "text": "I’ll coordinate smoke tests with QA once the branch is feature-complete — no blockers from my side right now.",
+          "verb": "coordinate",
+          "deadline": null,
+          "source_line": "Line 22: Bob: I’ll coordinate smoke tests with QA once the branch is feature-complete — no blockers from my side right now."
+        }
+      ]
+    },
+    "Sarah": {
+      "assigned": 5,
+      "completed": 0,
+      "follow_through_ratio": 0.0,
+      "items": [
+        {
+          "meeting_id": "meeting_001",
+          "text": "I’ll need Sarah’s creative assets in before I can sensibly time the staging work.",
+          "verb": "provide",
+          "deadline": null,
+          "source_line": "Line 19: Bob: I’ll need Sarah’s creative assets in before I can sensibly time the staging work."
+        },
+        {
+          "meeting_id": "meeting_001",
+          "text": "I will deliver the final marketing landing page to Alice by Thursday noon for review.",
+          "verb": "deliver",
+          "deadline": "Thursday noon",
+          "source_line": "Line 14: Sarah: I will deliver the final marketing landing page to Alice by Thursday noon for review."
+        },
+        {
+          "meeting_id": "meeting_001",
+          "text": "I’ll need Sarah’s creative assets in before I can sensibly time the staging work.",
+          "verb": "provide",
+          "deadline": null,
+          "source_line": "Line 19: Bob: I’ll need Sarah’s creative assets in before I can sensibly time the staging work."
+        },
+        {
+          "meeting_id": "sample_meeting_001",
+          "text": "I will deliver the final marketing landing page to Alice by Thursday noon for review.",
+          "verb": "deliver",
+          "deadline": "Thursday noon",
+          "source_line": "Line 14: Sarah: I will deliver the final marketing landing page to Alice by Thursday noon for review."
+        },
+        {
+          "meeting_id": "sample_meeting_001",
+          "text": "I’ll need Sarah’s creative assets in before I can sensibly time the staging work.",
+          "verb": "provide",
+          "deadline": null,
+          "source_line": "Line 19: Bob: I’ll need Sarah’s creative assets in before I can sensibly time the staging work."
+        }
+      ]
+    },
+    "Bob": {
+      "assigned": 4,
+      "completed": 0,
+      "follow_through_ratio": 0.0,
+      "items": [
+        {
+          "meeting_id": "meeting_001",
+          "text": "I’ll have the feature flag and rollout checklist ready by this Friday, April 25.",
+          "verb": "have ready",
+          "deadline": "April 25",
+          "source_line": "Line 12: Bob: I’ll have the feature flag and rollout checklist ready by this Friday, April 25."
+        },
+        {
+          "meeting_id": "meeting_001",
+          "text": "I’ll coordinate smoke tests with QA once the branch is feature-complete — no blockers from my side right now.",
+          "verb": "coordinate",
+          "deadline": null,
+          "source_line": "Line 22: Bob: I’ll coordinate smoke tests with QA once the branch is feature-complete — no blockers from my side right now."
+        },
+        {
+          "meeting_id": "sample_meeting_001",
+          "text": "I’ll have the feature flag and rollout checklist ready by this Friday, April 25.",
+          "verb": "have ready",
+          "deadline": "April 25",
+          "source_line": "Line 12: Bob: I’ll have the feature flag and rollout checklist ready by this Friday, April 25."
+        },
+        {
+          "meeting_id": "sample_meeting_001",
+          "text": "I’ll coordinate smoke tests with QA once the branch is feature-complete — no blockers from my side right now.",
+          "verb": "coordinate",
+          "deadline": null,
+          "source_line": "Line 22: Bob: I’ll coordinate smoke tests with QA once the branch is feature-complete — no blockers from my side right now."
+        }
+      ]
+    },
+    "Marcus": {
+      "assigned": 2,
+      "completed": 0,
+      "follow_through_ratio": 0.0,
+      "items": [
+        {
+          "meeting_id": "meeting_001",
+          "text": "I’ll get the TOS and privacy addendum in front of the exec sponsor by next Tuesday, close of business.",
+          "verb": "get",
+          "deadline": "next Tuesday, close of business",
+          "source_line": "Line 13: Marcus: I’ll get the TOS and privacy addendum in front of the exec sponsor by next Tuesday, close of business."
+        },
+        {
+          "meeting_id": "sample_meeting_001",
+          "text": "I’ll get the TOS and privacy addendum in front of the exec sponsor by next Tuesday, close of business.",
+          "verb": "get",
+          "deadline": "next Tuesday, close of business",
+          "source_line": "Line 13: Marcus: I’ll get the TOS and privacy addendum in front of the exec sponsor by next Tuesday, close of business."
+        }
+      ]
+    }
+  },
+  "low_confidence_items": [],
+  "high_risk_items": [
+    {
+      "text": "I’ll need Sarah’s creative assets in before I can sensibly time the staging work.",
+      "source_line": "Line 19: Bob: I’ll need Sarah’s creative assets in before I can sensibly time the staging work.",
+      "reason": "Missing owner or deadline on action item"
+    },
+    {
+      "text": "I’ll coordinate smoke tests with QA once the branch is feature-complete — no blockers from my side right now.",
+      "source_line": "Line 22: Bob: I’ll coordinate smoke tests with QA once the branch is feature-complete — no blockers from my side right now.",
+      "reason": "Missing owner or deadline on action item"
+    }
+  ]
+}

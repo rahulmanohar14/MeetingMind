@@ -1,0 +1,22 @@
+Alice: [DISCUSSION] I appreciate everyone being here today. We have a lot to discuss concerning the new sales approach.  
+Bob: [DISCUSSION] I completely agree, Alice. I feel we should concentrate more on digital platforms.  
+Charlie: [OPEN_QUESTION] What is our plan for incorporating social media into our marketing efforts?  
+Alice: [DISCUSSION] Excellent point, Charlie. I believe utilizing influencers could be crucial.  
+Dana: [DECISION] Let's proceed with a trial for Instagram advertisements next month.  
+Eve: [ACTION_ITEM] I can take charge of developing a content schedule for those advertisements.  
+Frank: [DISCUSSION] That sounds promising, Eve, but we must keep our budget in mind.  
+Alice: [DEFERRAL] Let's postpone the budget conversation until next week when we have all the numbers.  
+Bob: [DISCUSSION] That works for me, but I want to make sure we don't lose any opportunities.  
+Charlie: [ACTION_ITEM] I’ll look into effective influencer collaborations and report my findings.  
+Dana: [DECISION] We agree to review the budget next week, after which we can finalize the advertising strategy.  
+Eve: [DISCUSSION] Should we also consider discussing email marketing in this session?  
+Frank: [DISCUSSION] For sure, our current list has plenty of untapped potential.  
+Alice: [OPEN_QUESTION] How frequently should we send emails to our customers?  
+Bob: [DISCUSSION] I think sending them every two weeks would keep us on their radar without being too much.  
+Dana: [ACTION_ITEM] I can prepare a timeline for the email campaigns for us to examine.  
+Charlie: [DEFERRAL] I’d like to revisit our email tactics once we've established our social media approach.  
+Eve: [DECISION] Let's gather again in a week after assessing the influencer and email strategies.  
+Frank: [DISCUSSION] That sounds like a solid plan. Can we also designate someone to monitor performance metrics?  
+Alice: [ACTION_ITEM] I’ll take the initiative to track metrics and report back at our next meeting.  
+Charlie: [DISCUSSION] That will enable us to modify our strategies promptly.  
+Bob: [DECISION] Okay, let's confirm these action items and reconvene next week.

@@ -1,0 +1,21 @@
+Alice: [DISCUSSION] Thanks everyone for joining today. I think we need to address our Q2 marketing strategy.  
+Bob: [DISCUSSION] Agreed, last quarter's numbers were not as strong as we expected.  
+Charlie: [OPEN_QUESTION] What do you think was the main reason for that?  
+Alice: [DISCUSSION] I believe it was a mix of our targeting and messaging not resonating well with our audience.  
+Diana: [DECISION] Let's consider adjusting our audience segmentation for the next campaign.  
+Evan: [DISCUSSION] That sounds like a good idea. We need to ensure our content aligns with their interests.  
+Fiona: [ACTION_ITEM] I can run an analysis on our target demographics and present the findings next week.  
+Bob: [DEFERRAL] We should hold off on any major changes until we see those results, right?  
+Alice: [DECISION] Yes, let’s make that our first step before committing to any new strategies.  
+Diana: [DISCUSSION] Meanwhile, should we also explore new channels for advertising?  
+Evan: [ACTION_ITEM] I’ll research potential platforms and see what aligns best with our budget.  
+Fiona: [OPEN_QUESTION] Are there specific platforms we should prioritize?  
+Charlie: [DISCUSSION] I think social media should be a focus. It’s where our audience spends most of their time.  
+Alice: [DISCUSSION] Absolutely, but we must also consider email marketing. It still has a high ROI.  
+Diana: [DEFERRAL] Let's circle back to the email strategy after we finalize the social media plans.  
+Bob: [DECISION] Then it's settled, we’ll focus on social media for now and revisit email later.  
+Evan: [ACTION_ITEM] I’ll set up a timeline for our social media campaign development.  
+Charlie: [DISCUSSION] It might also be helpful to schedule a brainstorming session for new content ideas.  
+Alice: [OPEN_QUESTION] What do you all think about hosting a webinar to engage our audience?  
+Fiona: [DISCUSSION] That could be a great way to showcase our expertise and gather leads.  
+Diana: [DECISION] Let’s plan that as part of our content strategy moving forward.

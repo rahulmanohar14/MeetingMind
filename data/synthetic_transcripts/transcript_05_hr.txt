@@ -1,0 +1,21 @@
+Alice: [DISCUSSION] Thanks everyone for joining today’s meeting. Let’s get started with our agenda items.
+Bob: [DISCUSSION] I wanted to discuss the upcoming performance reviews. Are we still on track to start them next week?
+Charlie: [DECISION] Yes, we’ve finalized the timeline and will proceed as planned.
+Diana: [OPEN_QUESTION] What metrics are we using this year for the evaluations?
+Evelyn: [DISCUSSION] I think we should consider both quantitative and qualitative aspects to give a more rounded view.
+Frank: [ACTION_ITEM] I’ll gather last year’s review metrics and share them with the team by the end of the week.
+Alice: [DISCUSSION] That sounds good, Frank. We should also take feedback from the last review cycle into account.
+Bob: [DEFERRAL] Can we defer that discussion to next week? I need more time to review the feedback.
+Charlie: [ACTION_ITEM] I’ll follow up on the feedback and ensure it's added to the next agenda.
+Diana: [DISCUSSION] Regarding team-building activities, has anyone come up with ideas?
+Evelyn: [DECISION] I propose we allocate some budget for an offsite event next month.
+Frank: [DISCUSSION] That could foster better collaboration among the teams.
+Alice: [OPEN_QUESTION] Do we have a specific budget range we need to keep in mind for this?
+Bob: [DISCUSSION] I think we should aim for under $500 per person to keep it manageable.
+Charlie: [DECISION] Let’s set a budget of $5,000 overall for the event.
+Diana: [ACTION_ITEM] I’ll research possible venues and activities and report back next meeting.
+Evelyn: [DEFERRAL] I’ll need to check with finance about the budget before we finalize anything.
+Frank: [DISCUSSION] Also, should we consider virtual options in case some employees can’t attend in person?
+Alice: [DECISION] Yes, I think a hybrid model would work best.
+Bob: [ACTION_ITEM] I’ll draft a proposal for the hybrid model and circulate it for feedback.
+Diana: [DISCUSSION] Sounds like a great plan, everyone. Let’s keep the communication flowing as we move forward.

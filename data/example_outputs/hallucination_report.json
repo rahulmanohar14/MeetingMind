@@ -1,0 +1,51 @@
+{
+  "total_items_extracted": 238,
+  "hallucinated_items": 0,
+  "hallucination_rate_percent": 0.0,
+  "per_category_rates": {
+    "DECISION": {
+      "total_items": 34,
+      "hallucinated_items": 0,
+      "hallucination_rate_percent": 0.0,
+      "average_confidence": 0.9132
+    },
+    "ACTION_ITEM": {
+      "total_items": 43,
+      "hallucinated_items": 0,
+      "hallucination_rate_percent": 0.0,
+      "average_confidence": 0.9326
+    },
+    "OPEN_QUESTION": {
+      "total_items": 38,
+      "hallucinated_items": 0,
+      "hallucination_rate_percent": 0.0,
+      "average_confidence": 0.9211
+    },
+    "DEFERRAL": {
+      "total_items": 30,
+      "hallucinated_items": 0,
+      "hallucination_rate_percent": 0.0,
+      "average_confidence": 0.9033
+    },
+    "DISCUSSION": {
+      "total_items": 93,
+      "hallucinated_items": 0,
+      "hallucination_rate_percent": 0.0,
+      "average_confidence": 0.9011
+    }
+  },
+  "verdict": "PASS",
+  "tested_transcripts": [
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\sample_transcript.txt",
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\synthetic_transcripts\\transcript_01_tech_product.txt",
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\synthetic_transcripts\\transcript_02_legal_review.txt",
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\synthetic_transcripts\\transcript_03_marketing.txt",
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\synthetic_transcripts\\transcript_04_finance.txt",
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\synthetic_transcripts\\transcript_05_hr.txt",
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\synthetic_transcripts\\transcript_06_engineering.txt",
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\synthetic_transcripts\\transcript_07_sales.txt",
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\synthetic_transcripts\\transcript_08_academic.txt",
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\synthetic_transcripts\\transcript_09_healthcare.txt",
+    "C:\\Users\\rahul\\OneDrive\\Desktop\\MeetingMind\\data\\synthetic_transcripts\\transcript_10_operations.txt"
+  ]
+}

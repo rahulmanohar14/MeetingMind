@@ -1,0 +1,132 @@
+[
+  {
+    "filename": "transcript_01_tech_product.txt",
+    "augmented_filename": "transcript_01_tech_product_augmented.txt",
+    "domain": "tech product",
+    "num_lines": 23,
+    "expected_category_counts": {
+      "DECISION": 4,
+      "ACTION_ITEM": 4,
+      "OPEN_QUESTION": 3,
+      "DEFERRAL": 2,
+      "DISCUSSION": 10
+    }
+  },
+  {
+    "filename": "transcript_02_legal_review.txt",
+    "augmented_filename": "transcript_02_legal_review_augmented.txt",
+    "domain": "legal review",
+    "num_lines": 21,
+    "expected_category_counts": {
+      "DECISION": 3,
+      "ACTION_ITEM": 3,
+      "OPEN_QUESTION": 3,
+      "DEFERRAL": 2,
+      "DISCUSSION": 10
+    }
+  },
+  {
+    "filename": "transcript_03_marketing.txt",
+    "augmented_filename": "transcript_03_marketing_augmented.txt",
+    "domain": "marketing",
+    "num_lines": 21,
+    "expected_category_counts": {
+      "DECISION": 4,
+      "ACTION_ITEM": 3,
+      "OPEN_QUESTION": 3,
+      "DEFERRAL": 2,
+      "DISCUSSION": 9
+    }
+  },
+  {
+    "filename": "transcript_04_finance.txt",
+    "augmented_filename": "transcript_04_finance_augmented.txt",
+    "domain": "finance",
+    "num_lines": 21,
+    "expected_category_counts": {
+      "DECISION": 4,
+      "ACTION_ITEM": 3,
+      "OPEN_QUESTION": 3,
+      "DEFERRAL": 2,
+      "DISCUSSION": 9
+    }
+  },
+  {
+    "filename": "transcript_05_hr.txt",
+    "augmented_filename": "transcript_05_hr_augmented.txt",
+    "domain": "HR",
+    "num_lines": 21,
+    "expected_category_counts": {
+      "DECISION": 4,
+      "ACTION_ITEM": 4,
+      "OPEN_QUESTION": 2,
+      "DEFERRAL": 2,
+      "DISCUSSION": 9
+    }
+  },
+  {
+    "filename": "transcript_06_engineering.txt",
+    "augmented_filename": "transcript_06_engineering_augmented.txt",
+    "domain": "engineering",
+    "num_lines": 20,
+    "expected_category_counts": {
+      "DECISION": 3,
+      "ACTION_ITEM": 3,
+      "OPEN_QUESTION": 2,
+      "DEFERRAL": 2,
+      "DISCUSSION": 10
+    }
+  },
+  {
+    "filename": "transcript_07_sales.txt",
+    "augmented_filename": "transcript_07_sales_augmented.txt",
+    "domain": "sales",
+    "num_lines": 22,
+    "expected_category_counts": {
+      "DECISION": 4,
+      "ACTION_ITEM": 4,
+      "OPEN_QUESTION": 2,
+      "DEFERRAL": 2,
+      "DISCUSSION": 10
+    }
+  },
+  {
+    "filename": "transcript_08_academic.txt",
+    "augmented_filename": "transcript_08_academic_augmented.txt",
+    "domain": "academic",
+    "num_lines": 22,
+    "expected_category_counts": {
+      "DECISION": 4,
+      "ACTION_ITEM": 4,
+      "OPEN_QUESTION": 3,
+      "DEFERRAL": 2,
+      "DISCUSSION": 9
+    }
+  },
+  {
+    "filename": "transcript_09_healthcare.txt",
+    "augmented_filename": "transcript_09_healthcare_augmented.txt",
+    "domain": "healthcare",
+    "num_lines": 22,
+    "expected_category_counts": {
+      "DECISION": 3,
+      "ACTION_ITEM": 4,
+      "OPEN_QUESTION": 3,
+      "DEFERRAL": 3,
+      "DISCUSSION": 9
+    }
+  },
+  {
+    "filename": "transcript_10_operations.txt",
+    "augmented_filename": "transcript_10_operations_augmented.txt",
+    "domain": "operations",
+    "num_lines": 20,
+    "expected_category_counts": {
+      "DECISION": 3,
+      "ACTION_ITEM": 4,
+      "OPEN_QUESTION": 2,
+      "DEFERRAL": 2,
+      "DISCUSSION": 9
+    }
+  }
+]

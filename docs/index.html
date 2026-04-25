@@ -1,0 +1,166 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <title>MeetingMind — AI Meeting Accountability</title>
+  <link rel="preconnect" href="https://fonts.googleapis.com" />
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700&display=swap" rel="stylesheet" />
+  <style>
+    :root {
+      --navy: #0a1628;
+      --navy2: #0f2538;
+      --teal: #14b8a6;
+      --teal-dim: #0d9488;
+      --text: #e2e8f0;
+      --muted: #94a3b8;
+    }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0;
+      font-family: 'Inter', system-ui, sans-serif;
+      background: linear-gradient(160deg, var(--navy) 0%, #0c2d2a 100%);
+      color: var(--text);
+      min-height: 100vh;
+      line-height: 1.6;
+    }
+    a { color: var(--teal); }
+    .wrap { max-width: 1050px; margin: 0 auto; padding: 2.5rem 1.5rem 4rem; }
+    .hero {
+      text-align: center;
+      padding: 3.5rem 1rem 3rem;
+      border: 1px solid rgba(20, 184, 166, 0.2);
+      border-radius: 16px;
+      background: rgba(10, 22, 40, 0.5);
+    }
+    h1 { font-size: 2.5rem; margin: 0; letter-spacing: -0.02em; }
+    .sub { color: var(--teal); font-size: 1.2rem; margin: 0.8rem 0 0.5rem; }
+    .tag { color: var(--muted); max-width: 36rem; margin: 0 auto; font-size: 0.95rem; }
+    section { margin-top: 3.5rem; }
+    h2 { font-size: 1.35rem; color: var(--teal); border-bottom: 1px solid rgba(20, 184, 166, 0.25); padding-bottom: 0.4rem; }
+    .stat-grid { display: grid; grid-template-columns: 1fr 1fr; gap: 1.25rem; margin-top: 1rem; }
+    @media (max-width: 600px) { .stat-grid { grid-template-columns: 1fr; } }
+    .stat {
+      background: var(--navy2);
+      border-radius: 10px; padding: 1.1rem 1.25rem;
+      border: 1px solid rgba(148, 163, 184, 0.15);
+    }
+    .stat strong { color: var(--teal); font-size: 1.5rem; }
+    .cards { display: grid; grid-template-columns: repeat(3, 1fr); gap: 1.25rem; margin-top: 1rem; }
+    @media (max-width: 800px) { .cards { grid-template-columns: 1fr; } }
+    .card {
+      background: var(--navy2);
+      border-radius: 12px; padding: 1.4rem;
+      border: 1px solid rgba(20, 184, 166, 0.15);
+    }
+    .card h3 { margin: 0 0 0.5rem; font-size: 1.1rem; color: #fff; }
+    .arch {
+      background: #050d18;
+      border: 1px solid rgba(20, 184, 170, 0.2);
+      border-radius: 10px; padding: 1.5rem; font-family: ui-monospace, 'Cascadia Code', Consolas, monospace;
+      font-size: 0.8rem; color: #a5f3fc; overflow-x: auto; line-height: 1.5;
+    }
+    .arch .l { color: #94a3b8; }
+    .arch .box { color: #5eead4; }
+    .badges { display: flex; flex-wrap: wrap; gap: 0.5rem; margin-top: 1rem; }
+    .badge {
+      display: inline-block; padding: 0.3rem 0.6rem; border-radius: 6px;
+      background: rgba(20, 184, 166, 0.15); color: #99f6e4; font-size: 0.8rem; border: 1px solid rgba(20, 184, 166, 0.25);
+    }
+    .btn {
+      display: inline-block; margin-top: 1.5rem; padding: 0.75rem 1.4rem; border-radius: 8px;
+      background: var(--teal-dim); color: #042f2e; font-weight: 600; text-decoration: none;
+      border: 1px solid var(--teal);
+    }
+    .btn:hover { background: #2dd4bf; }
+    footer { text-align: center; margin-top: 4rem; color: var(--muted); font-size: 0.9rem; }
+  </style>
+</head>
+<body>
+  <div class="wrap">
+    <div class="hero">
+      <h1>🧠 MeetingMind</h1>
+      <p class="sub">The AI that remembers what your team forgot it promised</p>
+      <p class="tag">From transcript to decisions, actions, and accountability—without losing context across meetings.</p>
+    </div>
+
+    <section>
+      <h2>Why it matters</h2>
+      <div class="stat-grid">
+        <div class="stat">
+          <p><strong>$37B</strong> in annual U.S. productivity is lost to poorly run meetings, including unclear outcomes and unowned follow-ups (industry research estimates often cited in enterprise collaboration studies).</p>
+        </div>
+        <div class="stat">
+          <p>Professionals can spend on the order of <strong>~31 hours/month</strong> in meetings, yet commitments and open questions are rarely tracked in a single system.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>What MeetingMind does</h2>
+      <div class="cards">
+        <div class="card">
+          <h3>Fine-tuned Classifier (via API)</h3>
+          <p>LLM-backed classification of each utterance into decision, action, question, deferral, or discussion—so the signal survives noisy conversations.</p>
+        </div>
+        <div class="card">
+          <h3>Cross-Meeting Memory</h3>
+          <p>Vector store plus a graph of recurring issues so the same “we’ll circle back” does not reappear in meeting after meeting without visibility.</p>
+        </div>
+        <div class="card">
+          <h3>Decision Decay Model</h3>
+          <p>Confidence, completion risk, and follow-through stats highlight where accountability is most likely to break down before it does.</p>
+        </div>
+      </div>
+    </section>
+
+    <section>
+      <h2>Architecture (flow)</h2>
+      <div class="arch">
+        <pre><span class="l">[Transcript .txt]</span>
+    │
+    ▼
+<span class="box">TranscriptParser</span>  ──► numbered turns: speaker, text, line
+    │
+    ▼
+<span class="box">DecisionExtractor (OpenRouter / GPT-4o-mini)</span>  ──► category, owner, deadline, risk
+    │
+    ├──► <span class="box">Chroma + NetworkX</span>  (cross-meeting issues &amp; graph)
+    │
+    ├──► <span class="box">AccountabilityTracker</span>  (per-owner stats, JSON)
+    │
+    ▼
+<span class="box">ReportGenerator</span>  ──► summary + markdown report
+    │
+    ▼
+<span class="l">[Streamlit app.py]</span>  dashboards, charts, graph viz</pre>
+      </div>
+    </section>
+
+    <section>
+      <h2>Tech stack</h2>
+      <div class="badges">
+        <span class="badge">Python 3.11</span>
+        <span class="badge">Streamlit</span>
+        <span class="badge">OpenAI SDK + OpenRouter</span>
+        <span class="badge">ChromaDB</span>
+        <span class="badge">NetworkX</span>
+        <span class="badge">scikit-learn</span>
+        <span class="badge">Matplotlib</span>
+        <span class="badge">Pandas / NumPy</span>
+        <span class="badge">PyTorch (env)</span>
+        <span class="badge">HuggingFace Transformers</span>
+        <span class="badge">sentence-transformers (env)</span>
+        <span class="badge">pytest</span>
+      </div>
+      <a class="btn" href="#">View on GitHub</a>
+    </section>
+
+    <footer>
+      <p>MeetingMind · Northeastern University</p>
+      <p>Rahul Manohar Durshinapally &amp; Hasith Reddy Rapolu</p>
+    </footer>
+  </div>
+</body>
+</html>
