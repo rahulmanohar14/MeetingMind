@@ -195,6 +195,8 @@ The fine-tuning notebook `MeetingMind_FineTuning.ipynb` reproduces the DistilBER
 Training data: ICSI MRDA Corpus (`MRDA-Corpus.zip`) + curated examples  
 Output: `finetuning_outputs/` — model weights, confusion matrix, training curves, classification report
 
+Note: Fine-tuned model weights (model.safetensors) are excluded from the repository due to file size (250MB). Run the notebook to regenerate them locally in finetuning_outputs/meetingmind_model/
+
 ---
 
 ## Project Structure
