@@ -3,6 +3,9 @@
 
 MeetingMind is a multi-agent AI accountability system that transforms unstructured meeting transcripts into structured reports with persistent cross-session organizational memory. It implements four generative AI core components: Prompt Engineering, Fine-Tuning, Retrieval-Augmented Generation (RAG), and Synthetic Data Generation.
 
+**🌐 Web Page:** https://rahulmanohar14.github.io/MeetingMind  
+**📁 Repository:** https://github.com/rahulmanohar14/MeetingMind  
+
 ---
 
 ## Problem
@@ -203,7 +206,7 @@ MeetingMind/
 │   ├── decision_extractor.py       # Dual-mode classification
 │   ├── cross_meeting_memory.py     # RAG + knowledge graph
 │   ├── accountability_tracker.py   # Follow-through tracking
-│   └── report_generator.py        # JSON + markdown reports
+│   └── report_generator.py         # JSON + markdown reports
 ├── models/
 │   ├── classifier.py               # Batch classifier + evaluation
 │   ├── local_classifier.py         # DistilBERT offline mode
@@ -214,20 +217,23 @@ MeetingMind/
 │   └── evaluate_cross_meeting_recall.py  # Cross-meeting recall
 ├── data/
 │   ├── sample_transcript.txt       # Example meeting transcript
-│   ├── meeting_week1/2/3.txt       # 3-week standup demo sequence
-│   ├── synthetic_transcripts/      # 20 generated transcripts
+│   ├── meeting_week1.txt           # Week 1 standup transcript
+│   ├── meeting_week2.txt           # Week 2 standup transcript
+│   ├── meeting_week3.txt           # Week 3 standup transcript
+│   ├── synthetic_transcripts/      # 20 generated transcripts (10 domains)
 │   ├── example_outputs/            # Sample JSON/markdown outputs
-│   └── training_dataset.csv        # Fine-tuning training data
+│   └── training_dataset.csv        # Fine-tuning training data (570 examples)
 ├── docs/
 │   ├── index.html                  # GitHub Pages web page
 │   ├── confusion_matrix.png        # Model evaluation chart
-│   ├── training_curves.png         # Training loss/accuracy
-│   └── classification_report.txt   # Full sklearn report
+│   ├── training_curves.png         # Training loss/accuracy curves
+│   └── classification_report.txt   # Full sklearn classification report
 ├── app.py                          # Streamlit application
-├── config.py                       # Configuration
-├── requirements.txt                # Dependencies
+├── config.py                       # Configuration and thresholds
+├── requirements.txt                # Python dependencies
 ├── README.md                       # This file
-└── MeetingMind_FineTuning.ipynb    # Fine-tuning notebook
+├── MeetingMind_FineTuning.ipynb    # Fine-tuning notebook
+└── MRDA-Corpus.zip                 # ICSI MRDA training corpus
 ```
 
 ---
